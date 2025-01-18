@@ -1,11 +1,14 @@
 import React from "react";
+import ParentListtTasks from "./ParentListtTasks";
 
-export default function Contaners () {
+export default function Contaners() {
   return (
     <div className=" flex flex-row h-96  ">
-      <div className=" w-2/12 bg-green-500">left</div>
-      <div className="bg-gray-50 w-8/12  ">center</div>
-      <div className="w-2/12 bg-gray-300">left</div>
+      <div className=" w-2/12 bg-gray-50">
+      <ParentListtTasks/>
+      </div>
+      <div className="bg-gray-100 w-8/12  ">center</div>
+      <div className="w-2/12 bg-gray-50">left</div>
     </div>
   );
 }
