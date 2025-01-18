@@ -7,10 +7,15 @@ export default function ParentListtTasks() {
         <p>TO-DO Liast</p>
       </div>
       {/*  */}
-      <div className="flex items-center">
-        <button className="bg-purple-500 p-2 w-12/12">
+      <div className="flex items-center ">
+        <button className="bg-purple-500 p-2 w-52  rounded-2xl ">
           <p>Add new task</p>
         </button>
+      </div>
+      <div className="flex flex-col">
+        <ul>
+          <li></li>
+        </ul>
       </div>
     </div>
   );
