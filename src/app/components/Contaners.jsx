@@ -3,7 +3,7 @@ import ParentListtTasks from "./ParentListtTasks";
 
 export default function Contaners() {
   return (
-    <div className=" flex flex-row h-96  ">
+    <div className=" flex flex-row h-auto  ">
       <div className=" w-2/12 bg-gray-50">
       <ParentListtTasks/>
       </div>
