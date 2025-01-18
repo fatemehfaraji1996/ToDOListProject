@@ -3,7 +3,7 @@ import React from "react";
 export default function ParentListtTasks() {
   return (
     <div className="flex flex-col items-center">
-      <div className="text-center pt-5">
+      <div className="text-center pt-5 mb-10">
         <p className="font-mono ">TO-DO Liast</p>
       </div>
       {/*  */}
@@ -12,15 +12,32 @@ export default function ParentListtTasks() {
           <p>Add new task</p>
         </button>
       </div>
-      <div className="flex flex-col">
-        <ul>
-          <li><button className=" mt-6 "><p className="font-mono ">Today's tasks</p></button></li>
-          <li><button className=" mt-6"><p className="font-mono ">Important tasks</p></button></li>
-          <li><button className=" mt-6"><p className="font-mono ">Complated tasks</p></button></li>
-          <li><button className=" mt-6"><p className="font-mono ">Uncomplated tasks</p></button></li>
-         
-          
-        </ul>
+      {/*  */}
+      <div className="flex flex-col w-full">
+
+        <div className="hover:bg-red-100 w-full   hover:border-r-4 border-red-500 hover:rounded-sm ">
+          <button className=" mt-6 hover:bg-red-100 ">
+            <p className="font-mono pb-3 pl-2 ">Today's tasks</p>
+          </button>
+        </div>
+
+        <div className="hover:bg-red-100 w-full   hover:border-r-4 border-red-500 hover:rounded-sm ">
+          <button className=" mt-6">
+            <p className="font-mono pb-3 pl-2">Important tasks</p>
+          </button>
+        </div>
+
+        <div className="hover:bg-red-100 w-full   hover:border-r-4 border-red-500 hover:rounded-sm ">
+          <button className=" mt-6">
+            <p className="font-mono pb-3 pl-2">Complated tasks</p>
+          </button>
+        </div>
+
+        <div className="hover:bg-red-100 w-full   hover:border-r-4 border-red-500 hover:rounded-sm ">
+          <button className=" mt-6">
+            <p className="font-mono pb-3 pl-2">Uncomplated tasks</p>
+          </button>
+        </div>
       </div>
     </div>
   );
