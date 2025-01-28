@@ -72,7 +72,7 @@ export default function ParentListtTasks() {
         </button>
         <div
           id="dropdownDelay"
-          className="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700"
+          className="z-10 hidden bg-white divide-y divide-gray-900 rounded-lg shadow w-44 dark:bg-gray-700"
         >
           <ul
             className="py-2 text-sm text-gray-100 dark:text-gray-200"
