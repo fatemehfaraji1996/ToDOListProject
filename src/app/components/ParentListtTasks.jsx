@@ -23,28 +23,26 @@ export default function ParentListtTasks() {
           </button>
         </div>
 
-        <div className="hover:bg-red-100 w-full bg-pink-500  hover:border-r-4  hover:rounded-sm ">
+        <div className="hover:bg-red-100 w-full border-orange-700 hover:border-r-4  hover:rounded-sm ">
           <button className=" mt-6">
             <p className="font-mono pb-3 pl-2">Important tasks</p>
           </button>
         </div>
 
-        <div className="hover:bg-red-100 w-full   hover:border-r-4  hover:rounded-sm ">
+        <div className="hover:bg-red-100 w-full border-orange-700  hover:border-r-4  hover:rounded-sm ">
           <button className=" mt-6">
             <p className="font-mono pb-3 pl-2 ">Complated tasks</p>
           </button>
         </div>
 
-        <div className="hover:bg-red-100 w-full   hover:border-r-4 hover:rounded-sm ">
+        <div className="hover:bg-red-100 w-full border-orange-700  hover:border-r-4 hover:rounded-sm ">
           <button className=" mt-6">
-            <p className="font-mono pb-3 pl-2">
-              Uncomplated tasks
-            </p>
+            <p className="font-mono pb-3 pl-2">Uncomplated tasks</p>
           </button>
         </div>
 
         {/* drop down menu */}
-        <div className="relative inline-block text-left">
+        <div className="relative inline-block text-left hover:bg-red-100 w-full border-orange-700  hover:border-r-4 hover:rounded-sm ">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="inline-flex  w-full p-3  font-mono  "
@@ -64,8 +62,12 @@ export default function ParentListtTasks() {
                 clipRule="evenodd"
               />
             </svg>
-         
-            <p className="ml-0 ">Directories</p>
+            <div className="w-full ">
+           
+                {" "}
+                <p className="ml-0  ">Directories</p>
+             
+            </div>
           </button>
 
           {isOpen && (
@@ -75,8 +77,10 @@ export default function ParentListtTasks() {
                   <p className=" font-mono">Main</p>
                 </a>
                 <a href="#" className="block px-4 py-2 text-sm text-gray-700 ">
-                  <div className="border-2 border-dashed rounded-md w-24"> <p className="font-mono p-4"> + New</p></div>
-                 
+                  <div className="border-2 border-dashed rounded-md w-24">
+                    {" "}
+                    <p className="font-mono p-4"> + New</p>
+                  </div>
                 </a>
               </div>
             </div>
