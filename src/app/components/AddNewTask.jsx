@@ -5,7 +5,7 @@ export default function AddNewTask() {
    
         <div>
         
-          <button className="bg-purple-500 p-2 w-52  rounded-xl mb-10 ">
+          <button className="bg-purple-500 p-2 w-52 h-12  rounded-md mb-10 ">
             <p>Add new task</p>
           </button>
         </div>

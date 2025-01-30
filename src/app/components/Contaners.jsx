@@ -8,7 +8,7 @@ export default function Contaners() {
       <div className=" w-2/12 bg-gray-50">
       <ParentListtTasks/>
       </div>
-      <div className="bg-gray-100 w-8/12  ">
+      <div className="bg-gray-200 w-8/12  ">
       <ContanerCenter/>
       </div>
       <div className="w-2/12 bg-gray-50">left</div>
