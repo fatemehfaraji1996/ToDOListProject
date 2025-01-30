@@ -1,5 +1,6 @@
 import React from "react";
 import ParentListtTasks from "./ParentListtTasks";
+import ContanerCenter from "./ContanerCenter";
 
 export default function Contaners() {
   return (
@@ -7,7 +8,9 @@ export default function Contaners() {
       <div className=" w-2/12 bg-gray-50">
       <ParentListtTasks/>
       </div>
-      <div className="bg-gray-100 w-8/12  ">center</div>
+      <div className="bg-gray-100 w-8/12  ">
+      <ContanerCenter/>
+      </div>
       <div className="w-2/12 bg-gray-50">left</div>
     </div>
   );
