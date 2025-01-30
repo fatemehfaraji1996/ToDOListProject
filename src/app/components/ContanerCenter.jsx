@@ -1,4 +1,3 @@
-
 import React from "react";
 import AddNewTask from "./AddNewTask";
 import DateLists from "./DateListe";
@@ -6,9 +5,9 @@ import DateLists from "./DateListe";
 export default function ContanerCenter() {
   return (
     <div className=" w-full  ">
-      <div className=" parenttopbox  flex gap-60 mt-5 m-4">
+      <div className=" parenttopbox  flex  mt-5 m-4">
         {/* serch box */}
-        <div className=" relative ">
+        <div className=" relative  mr-auto">
           <input
             className="p-3 w-52  rounded-lg border-gray-300 focus:outline-none "
             type="text"
@@ -32,12 +31,14 @@ export default function ContanerCenter() {
         </div>
 
         {/* date box */}
-        <div>
+        <div className="mr-auto ml-auto">
           <DateLists />
         </div>
-
         {/* new task */}
-        <AddNewTask></AddNewTask>
+        <div className="ml-auto">
+         
+          <AddNewTask></AddNewTask>
+        </div>
       </div>
     </div>
   );
