@@ -10,7 +10,7 @@ export default function Contaners() {
       </div>
 
       {/* center */}
-      <div className="bg-gray-200 w-8/12  ">
+      <div className="bg-gray-100 w-8/12  ">
       <ContanerCenter/>
       </div>
 

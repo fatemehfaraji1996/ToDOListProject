@@ -38,7 +38,7 @@ export default function ContanerCenter() {
         <div className="ml-auto relative ">
           <AddNewTask></AddNewTask>
           <svg
-            className="w-6 h-6 text-purple-800 dark:text-white absolute top-2 right-50"
+            className="w-6 h-6 text-purple-400 dark:text-white absolute top-2 right-56"
             // ariaHidden="true"
             xmlns="http://www.w3.org/2000/svg"
             fill="currentColor"
