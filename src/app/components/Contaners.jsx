@@ -4,18 +4,20 @@ import ContanerCenter from "./ContanerCenter";
 
 export default function Contaners() {
   return (
-    <div className=" flex flex-row   ">
-      <div className=" bg-gray-100 sm:bg-gray-50">
+    <div className=" flex flex-row  ">
+
+      <div className=" bg-gray-100 sm:bg-gray-50 w-[30%]">
       <ParentListtTasks/>
       </div>
 
-      {/* center */}
-      <div className="bg-gray-100 w-full  ">
+   
+
+      <div className="bg-gray-100  w-[90%] ">
       <ContanerCenter/>
       </div>
 
-      {/* end senter */}
-      <div className=" bg-gray-100 sm:bg-gray-50">left</div>
+     
+      <div className=" bg-gray-100 sm:bg-gray-50 w-[5%]">left</div>
     </div>
   );
 }

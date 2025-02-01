@@ -9,7 +9,7 @@ export default function ContanerCenter() {
       
       <div className=" parenttopbox  flex  flex-col-reverse m-4 sm:bg-yellow-200 ">
         {/* serch box */}
-        <div className=" relative  mr-auto ml-auto w-full  sm:mr-auto  ">
+        <div className=" relative mr-auto ml-auto sm:mr-auto sm:ml-auto w-[100%]    ">
           <input
             className="p-3 sm:w-52 w-full rounded-lg border-gray-300 focus:outline-none "
             type="text"
