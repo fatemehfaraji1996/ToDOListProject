@@ -4,12 +4,14 @@ import DateLists from "./DateListe";
 
 export default function ContanerCenter() {
   return (
-    <div className=" w-full  ">
-      <div className=" parenttopbox  flex  mt-5 m-4">
+    <div className=" w-full h-96 ">
+      <div className=" flex justify-center sm:hidden mt-2">  <p className="font-mono ">To Do List</p></div>
+      
+      <div className=" parenttopbox  flex  flex-col-reverse m-4 sm:bg-yellow-200 ">
         {/* serch box */}
-        <div className=" relative  mr-auto">
+        <div className=" relative  mr-auto ml-auto w-full  sm:mr-auto  ">
           <input
-            className="p-3 w-52  rounded-lg border-gray-300 focus:outline-none "
+            className="p-3 sm:w-52 w-full rounded-lg border-gray-300 focus:outline-none "
             type="text"
             placeholder="search task"
           />
@@ -35,7 +37,7 @@ export default function ContanerCenter() {
           <DateLists />
         </div>
         {/* new task */}
-        <div className="ml-auto relative ">
+        <div className="ml-auto relative hidden sm:block">
           <AddNewTask></AddNewTask>
           <svg
             className="w-6 h-6 text-purple-400 dark:text-white absolute top-2 right-56"

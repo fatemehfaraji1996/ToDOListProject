@@ -10,11 +10,11 @@ export default function DateLists() {
   return (
     <div>
    
-      <ul>
+    
         {datesList1.map((date, index) => (
-          <li className='font-mono color-pink-100' key={index}>{date}</li>
+          <p className='font-mono' key={index}>{date}</p>
         ))}
-      </ul>
+  
     </div>
   );
 }

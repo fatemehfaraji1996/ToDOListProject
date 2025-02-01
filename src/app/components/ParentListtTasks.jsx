@@ -8,18 +8,19 @@ export default function ParentListtTasks() {
 
   return (
    
-    <div className="flex flex-col items-center bg-purple-300">
-       <div className="sm:hidden flex justify-end w-full bg-purple-500">
+    <div className="flex flex-col items-center ">
+       <div className="sm:hidden  flex justify-end  ">
        <button 
           onClick={() => setIsOpen(!isOpen)} // تغییر وضعیت منو با کلیک روی دکمه
-          className="p-2 rounded-md focus:outline-none"
+          className="p-2 rounded-md focus:outline-none   "
         >
-          <svg className="w-6 h-6 bg-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <svg className="w-6 h-6 " fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7" />
           </svg>
         </button>
        </div>
-       <div className=" parentlist hidden sm:block">
+       <div className={`hidden sm:block ${isOpen ? 'block' :'hidden'}`}>
+       {/* <div className='parentlist hidden sm:block '> */}
       <div className="text-center pt-5 mb-10 ">
         <p className="font-mono ">TO-DO Liast</p>
       </div>
