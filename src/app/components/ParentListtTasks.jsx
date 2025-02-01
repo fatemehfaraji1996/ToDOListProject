@@ -12,7 +12,7 @@ export default function ParentListtTasks() {
     <div className={`${isOpen ? 'w[50%]' : 'w[0%]'}  bg-blue-300`}>
       {/* start hamberger menu */}
        {/* <div className="sm:hidden p-2 mr-auto bg-orange-400"> */}
-       <div className={`${isOpen ? 'hidden' : 'block'}`}>
+       <div className={`${isOpen ? 'hidden' : 'block sm:hidden ' }`}>
        <button 
           onClick={() => setIsOpen(!isOpen)} // تغییر وضعیت منو با کلیک روی دکمه
           className="  rounded-md focus:outline-none   "
@@ -24,7 +24,7 @@ export default function ParentListtTasks() {
        </div>
        {/* end hamberger menu */}
        <div className={` sm:block ${isOpen ? 'block' :'hidden'} z-20  bg-gray-300 flex flex-col items-center `}>
-      <div className="hidden sm:text-center sm:pt-5 sm:mb-10 ">
+      <div className="hidden sm:block sm:text-center sm:pt-5 sm:mb-10 ">
         <p className="font-mono ">TO-DO Liast</p>
       </div>
       {/*  */}
