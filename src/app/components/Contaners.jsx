@@ -6,7 +6,7 @@ export default function Contaners() {
   return (
     <div className=" flex flex-row  ">
 
-      <div className=" bg-gray-100 sm:bg-gray-50 w-[30%]">
+      <div className=" bg-gray-100 sm:bg-gray-50">
       <ParentListtTasks/>
       </div>
 
