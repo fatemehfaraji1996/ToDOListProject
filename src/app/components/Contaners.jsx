@@ -14,7 +14,7 @@ export default function Contaners() {
         <ContanerCenter />
       </div>
 
-      <div className=" bg-gray-100 sm:bg-gray-50 w-[5%]">left</div>
+      <div className=" bg-gray-500 sm:bg-gray-50 w-[5%]">left</div>
     </div>
 
     // <Po></Po>
