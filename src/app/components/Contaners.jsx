@@ -1,14 +1,17 @@
 import React from "react";
-import ParentListtTasks from "./ParentListtTasks";
+// import ParentListtTasks from "./ParentListtTasks";
 import ContanerCenter from "./ContanerCenter";
-import Po from "./Po";
+// import Po from "./Po";
+import Navbar from "./Navbar";
 
 export default function Contaners() {
   return (
     <div className=" flex flex-row  ">
-      <div className=" bg-gray-100 sm:bg-gray-50">
-        <ParentListtTasks />
+      <div className=" bg-pink-500 sm:bg-gray-50 ">
+        {/* <ParentListtTasks /> */}
+        <Navbar/>
       </div>
+        
 
       <div className="bg-gray-100  w-[90%] ">
         <ContanerCenter />
